@@ -11,7 +11,9 @@ Settup:
         python3 src/classifier.py TRAIN Dataset/FaceData/processed Models/20180402-114759.pb Models/facemodel.pkl --batch_size 1000
     - Run:
         python3 src/face_rec_cam.py
-
+Create Folder: 
+    - face_rec/Dataset/FaceData/processed
+    - face_rec/Dataset/FaceData/raw
 How to install tensorflow 2 on Raspberry Pi 4
     
     sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
